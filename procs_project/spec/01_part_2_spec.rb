@@ -13,7 +13,7 @@ describe "PART 2" do
   end
 
   describe "word_changer" do
-    it "should accept a sentence string and a block as args" do
+    it "should accept a sentence string astringnd a block as args" do
       expect { word_changer("goodbye moon") { |word| word.upcase + "!" } }.to_not raise_error
     end
 
